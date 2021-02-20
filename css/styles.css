@@ -1843,7 +1843,12 @@ a:hover.back-to-top {
 	display: -webkit-flex;
 	display: -ms-flexbox;
 	display: flex;
-	width: 25px;
+	width: '25%';
+	object-fit: cover;
+}
+
+.squareimage img {
+	object-fit: cover;
 }
 
 
