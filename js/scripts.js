@@ -199,7 +199,7 @@
                     lformSuccess();
                 } else {
                     lformError();
-                    lsubmitMSG(false, text);
+                    lsubmitMSG(true, text);
                 }
             }
         });
@@ -232,7 +232,7 @@
     	if (event.isDefaultPrevented()) {
             // handle the invalid form...
             cformError();
-            csubmitMSG(false, "Please fill all fields!");
+            csubmitMSG(true, "Please fill all fields!");
         } else {
             // everything looks good!
             event.preventDefault();
@@ -289,7 +289,7 @@
     	if (event.isDefaultPrevented()) {
             // handle the invalid form...
             pformError();
-            psubmitMSG(false, "Please fill all fields!");
+            psubmitMSG(true, "Please fill all fields!");
         } else {
             // everything looks good!
             event.preventDefault();
