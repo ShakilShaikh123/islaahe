@@ -1838,6 +1838,14 @@ a:hover.back-to-top {
 	margin-top: 1.75rem;
 }
 
+.squareimage {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	width: 25px;
+}
+
 
 /*****************************/
 /*     21. Media Queries     */
